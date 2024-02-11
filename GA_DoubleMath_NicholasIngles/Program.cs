@@ -50,7 +50,41 @@ class Program
         Console.WriteLine("5.5 * 3.0 = " + result15);
 
 
+        double x = .1;
+        double y = 6.6;
+        double z = 9.5;
 
+        double complex1 = (x + 1) * 40.5;
+        double complex2 = 369.6 / y;
+        double complex3 = (z * 10) / 22.5;
+        double complex4 = x * (y * z);
+
+        Console.WriteLine("\n(x + 1) * 40.5 = " + complex1);
+        Console.Write("x = ");
+        string answer1 = Console.ReadLine();
+
+        Console.WriteLine("\nYour answer: " + answer1);
+        Console.WriteLine("Correct answer: " + x);
+
+        Console.WriteLine("\n369.6 / y = " + complex2);
+        Console.Write("y = ");
+        string answer2 = Console.ReadLine();
+
+        Console.WriteLine("\nYour answer: " + answer2);
+        Console.WriteLine("Correct answer: " + y);
+
+        Console.WriteLine("\n(z * 10) / 22.5 = " + complex3);
+        Console.Write("z = ");
+        string answer3 = Console.ReadLine();
+
+        Console.WriteLine("\nYour answer: " + answer3);
+        Console.WriteLine("Correct answer: " + z);
+
+        Console.Write("\nx * (y * z) = ");
+        string answer4 = Console.ReadLine();
+
+        Console.WriteLine("\nYour answer: " + answer4);
+        Console.WriteLine("Correct answer: " + complex4);
 
 
 
